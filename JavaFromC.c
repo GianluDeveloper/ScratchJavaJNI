@@ -4,7 +4,7 @@
 #include "JavaFromC.h"
 JNIEXPORT jstring JNICALL Java_JavaFromC_intheC(JNIEnv *env, jobject foo_obj, jint n)
 {
-    printf("ok da c (%d)\n", n);
+    printf("ok from c (%d)\n", n);
     const char *msg = "hiii im c";
     jstring result = (*env)->NewStringUTF(env, msg);
 

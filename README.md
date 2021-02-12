@@ -31,8 +31,8 @@ Output:
 
 ```
 
-ok da c (2)
-ok di java
-in main
+ok from c (2)
+ok of java
+in the main
 
 ```

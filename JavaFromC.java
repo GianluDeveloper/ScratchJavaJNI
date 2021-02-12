@@ -6,12 +6,12 @@ class JavaFromC {
     private native String intheC(int i);
 
     public static void testit() {
-        System.out.println("ok di java");
+        System.out.println("ok of java");
     }
 
     public static void main(String[] args) {
         JavaFromC c = new JavaFromC();
         c.intheC(2);
-        System.out.println("in main");
+        System.out.println("in the main");
     }
 }
